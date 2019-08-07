@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+
+.Header {
+  height: 3.5rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+.Header h1 {
+  font-family: 'Saira Stencil One', sans-serif, cursive;
+  font-size: 2rem;
+}
+.Header a {
+  text-decoration: none;
+  color: #333;
+  transition: .2s;
+  font-weight: 700;
+}
+.Header a:hover {
+  color: #006eff;
+}
